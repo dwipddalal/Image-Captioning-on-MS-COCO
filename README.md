@@ -1,1 +1,2 @@
 # Image Captioning 
+This model is inspired from the <a href="https://arxiv.org/pdf/1502.03044.pdf"> show, attend and tell </a>. There I have used soft-attention mechanism. In this case convolution output(image tensor) of the Inception model is taken so as to preserve the spatial details of the image. Then attention mechanism is applied on this image vector to give a context vector which will be used to generate captions by using it through RNN architecture. 
